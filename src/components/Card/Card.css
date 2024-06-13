@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  max-width: 600px;
+}
+
+.cont-info {
+  padding: 10px;
+}
+
+h4 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.cont-info p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+button {
+  background-color: #daa521;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cont-info button:hover {
+  background-color: #e9ca7b;
+}
